@@ -1,0 +1,42 @@
+/* App.css */
+
+div {
+    margin: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .chip {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .remove {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .remove:hover {
+    color: red;
+  }
+  
