@@ -1,4 +1,4 @@
-import AutoComplete from "./Autocomplete";
+import AutoComplete from "./AutoComplete.jsx";
 
 function App() {
   return (
