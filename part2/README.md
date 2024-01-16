@@ -1,8 +1,19 @@
-# React + Vite
+# AutoComplete Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React component for an auto-complete feature with a chip input interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of items when clicking on the input field.
+- Dynamically update the list based on user input.
+- Convert selected items into chips with automatic input adjustment.
+- Remove chips by clicking the "X" icon, adding items back to the list.
+
+## Usage
+
+1. **Install Dependencies:**
+   ```bash
+   npm install
+
+
+- [Live Test](https://)
