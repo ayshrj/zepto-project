@@ -1,42 +1,59 @@
-/* App.css */
-
-div {
+.auto-complete {
+    position: relative;
+    width: 300px;
     margin: 20px;
   }
   
-  input {
-    padding: 8px;
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    cursor: pointer;
-    padding: 8px;
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid #ccc;
-    margin-bottom: 5px;
+    border-radius: 4px;
+    overflow: hidden;
   }
   
   .chip {
-    display: inline-block;
     background-color: #4caf50;
-    color: white;
+    color: #fff;
     padding: 8px;
+    margin: 4px;
+    margin-right: 0%;
     border-radius: 4px;
-    margin-right: 5px;
+    display: flex;
+    align-items: center;
   }
   
-  .remove {
+  .chip span {
+    margin-left: 8px;
     cursor: pointer;
-    margin-left: 5px;
   }
   
-  .remove:hover {
-    color: red;
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 1;
   }
   
+  .item-list li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .item-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .item-list .highlighted {
+    background-color: #b3e0ff;
+  }
+  
+    /* .input-container {
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 8px; 
+    }*/
